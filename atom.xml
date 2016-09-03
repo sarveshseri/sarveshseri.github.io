@@ -1,4 +1,28 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Sarvesh Kumar Singh"><meta name="description"><title>A bit of code</title><link rel="icon" href="/favicon.ico"><link rel="canonical" href="https://sarveshseri.github.io/"><link rel="stylesheet" href="/fonts/iconfont/iconfont.css"><link rel="stylesheet" href="/css/style.css"></head><body><div id="main"><header><a href="/." class="logo">A bit of code</a><ul class="nav"><li class="nav-link"><a href="/" class="active">Home</a></li><li class="nav-link"><a href="/archives/" target="_self">Archives</a></li></ul></header><section id="container"><ul class="home"><li class="post-item"><article class="post"><h2 class="post-title"><a href="/2016/09/03/intellij-ide-for-scala/" class="post-link">IntelliJ :: IDE for Scala</a></h2><span class="post-time">Sep 3, 2016</span><div class="post-content"><h4 id="Fix-insane-parameter-indentation"><a href="#Fix-insane-parameter-indentation" class="headerlink" title="Fix insane parameter indentation"></a>Fix insane parameter indentation</h4><p>IntelliJ has a strange indentation setting for Scala function/class declaration parameters. If you want to provide function/class declaration parameters in multiple lines, IntelliJ will indent your code like following,<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">case</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> (<span class="params"></span></span></div><div class="line">                    name: <span class="type">String</span>,</div><div class="line">                    age: <span class="type">Int</span></div><div class="line">                    )</div></pre></td></tr></table></figure></p>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>A bit of code</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://sarveshseri.github.io/"/>
+  <updated>2016-09-03T09:37:21.000Z</updated>
+  <id>https://sarveshseri.github.io/</id>
+  
+  <author>
+    <name>Sarvesh Kumar Singh</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IntelliJ :: IDE for Scala</title>
+    <link href="https://sarveshseri.github.io/2016/09/03/intellij-ide-for-scala/"/>
+    <id>https://sarveshseri.github.io/2016/09/03/intellij-ide-for-scala/</id>
+    <published>2016-09-03T08:50:30.000Z</published>
+    <updated>2016-09-03T09:37:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Fix-insane-parameter-indentation"><a href="#Fix-insane-parameter-indentation" class="headerlink" title="Fix insane parameter indentation"></a>Fix insane parameter indentation</h4><p>IntelliJ has a strange indentation setting for Scala function/class declaration parameters. If you want to provide function/class declaration parameters in multiple lines, IntelliJ will indent your code like following,<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">case</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> (<span class="params"></span></span></div><div class="line">                    name: <span class="type">String</span>,</div><div class="line">                    age: <span class="type">Int</span></div><div class="line">                    )</div></pre></td></tr></table></figure></p>
 <p>Which is kind of insane and I think most people want it to look like following,<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">case</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> (<span class="params"></span></span></div><div class="line">  name: <span class="type">String</span>,</div><div class="line">  age: <span class="type">Int</span></div><div class="line">)</div></pre></td></tr></table></figure></p>
 <p>To fix this go to <code>Preferences -&gt; Code Style -&gt; Scala</code>. Now go to <code>Wrapping and Braces</code> tab and,</p>
 <ul>
@@ -10,7 +34,25 @@
 </ul>
 <img src="/2016/09/03/intellij-ide-for-scala/idea-1.png" alt="Scala indentation configuration" title="Scala indentation configuration">
 <p>Click <code>OK</code> to save the configuration.</p>
-</div></article></li><li class="post-item"><article class="post"><h2 class="post-title"><a href="/2016/09/02/sbt-the-simple-build-tool/" class="post-link">SBT :: The Simple Build Tool</a></h2><span class="post-time">Sep 2, 2016</span><div class="post-content"><p>Every Scala beginner wonders about one thing — “What exactly is simple about <em>sbt</em> ?”. And I think the answer is — “<em>sbt</em> is indeed simple but that is only relative to the power and flexibility it provides”.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Fix-insane-parameter-indentation&quot;&gt;&lt;a href=&quot;#Fix-insane-parameter-indentation&quot; class=&quot;headerlink&quot; title=&quot;Fix insane parameter indenta
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SBT :: The Simple Build Tool</title>
+    <link href="https://sarveshseri.github.io/2016/09/02/sbt-the-simple-build-tool/"/>
+    <id>https://sarveshseri.github.io/2016/09/02/sbt-the-simple-build-tool/</id>
+    <published>2016-09-02T15:35:26.000Z</published>
+    <updated>2016-09-02T16:24:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Every Scala beginner wonders about one thing — “What exactly is simple about <em>sbt</em> ?”. And I think the answer is — “<em>sbt</em> is indeed simple but that is only relative to the power and flexibility it provides”.</p>
 <p><em>sbt</em> can be pretty challenging for anyone who is not used to working with it. And so I thought about summarizing some basic things to get us all started.</p>
 <h4 id="Minimal-Sbt-project"><a href="#Minimal-Sbt-project" class="headerlink" title="Minimal Sbt project"></a>Minimal Sbt project</h4><p>Lets create our <em>Works/scala</em> directory and our project called <em>SbtDemo1</em>,<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">mkdir -p ~/Works/scala/SbtDemo1</div><div class="line"><span class="built_in">cd</span> ~/Works/scala</div><div class="line">mkdir -p SbtDemo/src/main/scala</div><div class="line">touch SbtDemo/src/main/scala/Main.scala</div><div class="line">touch SbtDemo/build.sbt</div></pre></td></tr></table></figure></p>
 <p>Now we have the minimal structure for our <em>sbt</em> project which looks like following,<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">tree SbtDemo1</div><div class="line">SbtDemo1</div><div class="line">├── build.sbt</div><div class="line">└── src</div><div class="line">    └── main</div><div class="line">        └── scala</div><div class="line">            └── Main.scala</div></pre></td></tr></table></figure></p>
@@ -19,4 +61,19 @@
 <p>We still have any not written any Scala code, so lets do that. Edit <em>SbtDemo1/src/main/scala/Main.scala</em>,<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">object</span> <span class="title">Main</span> </span>&#123;</div><div class="line"></div><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">main</span></span>(args: <span class="type">Array</span>[<span class="type">String</span>]): <span class="type">Unit</span> = &#123;</div><div class="line">    println(<span class="string">"---------"</span>)</div><div class="line">    println(<span class="string">"Hi,"</span>)</div><div class="line">    println(<span class="string">"I am Sbt and I am simple. :D"</span>)</div><div class="line">    println(<span class="string">"---------"</span>)</div><div class="line">  &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>Now that we have a minimal <em>sbt</em> project, lets try running this,<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sbt compile</div><div class="line"><span class="comment"># wait for it to compile</span></div><div class="line">sbt run</div></pre></td></tr></table></figure></p>
 <p>This should print something like following,<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">[info] Set current project to SbtDemo1 (in build file:/Users/xxxx/Works/scala/SbtDemo1/)</div><div class="line">[info] Running Main</div><div class="line">---------</div><div class="line">Hi,</div><div class="line">I am Sbt and I am simple. :D</div><div class="line">---------</div><div class="line">[success] Total time: 1 s, completed 2 Sep, 2016 9:47:19 PM</div></pre></td></tr></table></figure></p>
-</div></article></li></ul><div class="paginator"></div></section><footer><div class="social"><a href="mailto:sarveshseri@email.com" class="iconfont icon-email"> </a><a href="http://stackoverflow.com/users/1151929" class="iconfont icon-stack-overflow"> </a><a href="/" class="iconfont icon-github"> </a><a href="/atom.xml" class="iconfont icon-rss"> </a></div><div class="copyright"><p class="power">Powered by <a href="https://hexo.io/">Hexo</a> and Theme by <a href="https://github.com/ahonn/hexo-theme-even"> Even</a></p><p class="since">&copy;2016<span class="heart"><i class="iconfont icon-heart"></i></span><span class="author">Sarvesh Kumar Singh</span></p></div><label id="back2top"><i class="iconfont icon-up"></i></label></footer></div><script src="/js/zepto.min.js"></script><script src="/js/theme.js"></script></body></html>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Every Scala beginner wonders about one thing — “What exactly is simple about &lt;em&gt;sbt&lt;/em&gt; ?”. And I think the answer is — “&lt;em&gt;sbt&lt;/em&gt; i
+    
+    </summary>
+    
+    
+      <category term="Scala" scheme="https://sarveshseri.github.io/tags/Scala/"/>
+    
+      <category term="Sbt" scheme="https://sarveshseri.github.io/tags/Sbt/"/>
+    
+  </entry>
+  
+</feed>
