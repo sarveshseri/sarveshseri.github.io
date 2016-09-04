@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sarveshseri.github.io/2016/09/02/sbt-the-simple-build-tool/</loc>
+    
+    <lastmod>2016-09-04T19:30:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sarveshseri.github.io/about/index.html</loc>
     
     <lastmod>2016-09-03T12:23:23.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://sarveshseri.github.io/2016/09/03/intellij-ide-for-scala/</loc>
     
     <lastmod>2016-09-03T09:37:21.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sarveshseri.github.io/2016/09/02/sbt-the-simple-build-tool/</loc>
-    
-    <lastmod>2016-09-02T16:24:00.000Z</lastmod>
     
   </url>
   
